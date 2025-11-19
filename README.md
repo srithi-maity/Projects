@@ -47,26 +47,26 @@ This project addresses a key challenge in mRNA vaccine development: predicting R
 ### Key Visualizations
 
 #### 1. Reactivity Distribution
-![Reactivity Distribution](<img width="800" height="400" alt="Ractivity Distribution" src="https://github.com/user-attachments/assets/73af2b58-7d1d-40b3-8053-a6ca6953978d" />)
+![Reactivity Distribution](images/reactivity_distribution.png)
 *Distribution of mean reactivity values shows most sequences cluster between 0.2-0.6 reactivity, with a normal distribution pattern indicating good data quality.*
 
 #### 2. Feature Importance
-![Feature Importance](<img width="640" height="480" alt="Feature Importance" src="https://github.com/user-attachments/assets/f9731468-d82f-4ff2-b86d-dde013120558" />)
+![Feature Importance](images/feature_importance.png)
 *Initial feature importance showing encoded sequence features (f392, f391, f395) as most predictive of degradation rates.*
 
 #### 3. Final Model Feature Importance
-![Final Feature Importance](<img width="640" height="480" alt="Final Model Feature Importance" src="https://github.com/user-attachments/assets/f81b93e5-9d91-47fa-a815-86f4c6bddb91" />)
+![Final Feature Importance](images/final_feature_importance.png)
 *Optimized model feature importance after hyperparameter tuning, showing more balanced feature utilization.*
 
 #### 4. Reactivity by Loop Type
-![Reactivity by Loop Type](<img width="640" height="480" alt="Mean Reactivity by Loop type " src="https://github.com/user-attachments/assets/af30d135-d7d2-47a6-91f4-52aea903adde" />)
+![Reactivity by Loop Type](images/looptype_reactivity.png)
 *Loop type 5 (External loops) shows significantly higher reactivity compared to other structural elements.*
 
 #### 5. BPP Feature Correlations
-![BPP Correlation](<img width="600" height="400" alt="BPP Correlation" src="https://github.com/user-attachments/assets/4060eaf7-eb4f-4583-9913-c30978a09efd" />)
+![BPP Correlation](images/bpp_correlation.png)
 *Strong correlations between BPP features: bpp_mean and bpp_sum are perfectly correlated (1.0), suggesting feature redundancy.*
 
-### 🔬 Key Insights from Analysis
+### Key Insights from Analysis
 
 #### Data Characteristics
 - **Sequence Length**: All sequences are 107 nucleotides (unusual consistency)
